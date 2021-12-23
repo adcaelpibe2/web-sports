@@ -67,11 +67,12 @@
 /* SECTION */
 
 #content {
-    background-color: rgb(130, 223, 153);
+    background-color: rgb(165, 243, 184);
     height: 1700px;
     width: 100%;
     display: block;
     margin: 0px auto;
+    padding-top:40px;
 }
 
 .main{
@@ -91,7 +92,9 @@
     height: 434px;
 }
 
-#main-content-1 ul{
+/**/
+
+#main-content-1>ul{
     background-color: rgb(223, 161, 161);
     width: 990px;
     height: 417px;
@@ -109,15 +112,99 @@
     width: 100%;
     height: auto;
     display: block;
+    margin-top: 23px;
 }
+
+
+
 
 #main-content-1 .item-1:first-child{
     float: left;
 }
 
 
+#main-content-1 .item-1:first-child{
+    float: left;
+}
+
+
+
+#main-content-1 .item-1:first-child .ribbon{
+    color: #FFF;
+    position: absolute;
+    top: 118px;
+    font-size: 12px;
+    font-family: "robotoMedium",Arial,helvetica;
+    text-transform: uppercase;
+    background-color: #3367d6;
+    text-align: center;
+    padding: 3px 6px;
+    z-index: 1;
+}
+
+
+
+#main-content-1 .item-1:first-child .mod-header{
+    color: #FFF;
+    display: block;
+    margin-top: 10px;
+    position: absolute;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: 2;
+    background-color: transparent;
+    bottom: 27%;
+ 
+}
+
+
+
+
+#main-content-1 .item-1:first-child .mod-header h2{
+    font-size: 45px;
+    margin-top: 10px;
+    line-height: 54px;
+    margin-bottom: 4px;
+}
+
+#main-content-1 .item-1:first-child footer{
+    display: block;
+}
+
+#main-content-1 .item-1:first-child .mod-footer{
+    background-color: rgb(179, 179, 82);
+    position: absolute;
+    width: 49%;
+    bottom: 106px;
+    border-bottom: 2px solid #0a0a0a;
+    /*  border-bottom: 2px solid #a3a3a3;*/
+    overflow: hidden;
+    display: block;
+    float: left;
+}
+
+#main-content-1 .item-1:first-child .mod-footer .mod-comments{
+    /*display: inline-block;
+    background-color: black; talvez no.. */
+
+    text-align: right;
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    float: right;
+    text-align: right;
+    font-size: 12px;
+    list-style: none;
+    
+}
+
+
+
+
+
+
 #main-content-1 .item-1:nth-child(2){
-    background-color: lightgreen;
+    background-color: rgb(202, 238, 144);
     /*width: 33.3%;*/
     width: 327px;
     height: 139px;
@@ -253,3 +340,34 @@
 
 
 
+
+
+
+
+
+
+
+    /* main-content-2 */
+
+    #main-content-2{
+        background-color: blueviolet;
+        width: 990px;
+        height: 689.8px;
+    }
+    
+    #main-content-2>ul{
+        background-color: rgb(226, 164, 82);
+        width: 990px;
+        height: 620px;
+        list-style: none;
+    }
+
+    #main-content-2> ul  .item-2{
+        background-color: brown;
+        width: 305px;
+        height: 300px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        display: block;
+        float: left;
+    }
