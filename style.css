@@ -1,0 +1,255 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* HEADER */
+
+#logo{
+    background-color: firebrick;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: rgb(4, 30, 66);
+    width: 115px;
+    height: 55px;
+    color: inherit;
+    float: left;
+    font-size: 11.2px;
+   color: #FFFFFF;
+   /**/
+   margin-left: 34px;
+}
+
+#logo h1{
+    text-align: center;
+    line-height: 50px;
+}
+
+#menu{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 100%;
+    /*margin-bottom: 20px;   puede ser.. 45 55 60*/ 
+    background-color: rgb(4, 30, 66);
+    color: #CDD2D9;
+}
+
+#menu ul{
+    line-height: 46px;
+    height: 55px;
+    /*list-style: none;*/
+    list-style: none;
+}
+
+#menu ul li{
+    height: 46px;
+    display: inline-block;
+    /**/
+    margin-left: 50px;
+
+}
+
+#menu a{
+    background-color: royalblue;
+    background-color: transparent;
+    display: block;
+    text-decoration: none;
+    color: #CDD2D9;
+    padding-left: 25px;
+    padding-right: 30px;
+    /**/
+}
+
+#menu li:first-child{
+    margin-left: 135px;
+}
+
+
+/* SECTION */
+
+#content {
+    background-color: rgb(130, 223, 153);
+    height: 1700px;
+    width: 100%;
+    display: block;
+    margin: 0px auto;
+}
+
+.main{
+    background-color: royalblue;
+    height: 1500px;
+    width: 990px;
+    margin: 0px auto;
+    display: block;
+}
+
+
+    /* main-content-1 */
+
+#main-content-1{
+    background-color: fuchsia;
+    width: 990px;
+    height: 434px;
+}
+
+#main-content-1 ul{
+    background-color: rgb(223, 161, 161);
+    width: 990px;
+    height: 417px;
+    list-style: none;
+
+}
+
+#main-content-1 .item-1 .mod-item-soccer{
+    background-color: lightseagreen;
+    width: 660px;
+    height: 366px;
+}
+
+#main-content-1 .item-1 .mod-item-soccer .img  img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#main-content-1 .item-1:first-child{
+    float: left;
+}
+
+
+#main-content-1 .item-1:nth-child(2){
+    background-color: lightgreen;
+    /*width: 33.3%;*/
+    width: 327px;
+    height: 139px;
+    float: right;
+    display: block;
+
+}
+
+
+#main-content-1 .item-1:nth-child(2) .img {
+    float: left;
+}
+
+#main-content-1 .item-1:nth-child(2) .img img{
+    width: 140px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 34px;
+}
+
+#main-content-1 .item-1:nth-child(2) .mod-header{
+    padding-left: 13px;
+    display: block;
+    width: 157px;
+    float: right;
+    margin-top: -83px;
+    background-color: gold;
+    background-color: transparent;
+}
+
+
+#main-content-1 .item-1:nth-child(2) .mod-header h2{
+    display: block;
+    font-size: 17px;
+    float: left;
+    padding-left: 1px;
+}
+
+#main-content-1 .item-1:nth-child(3){
+    background-color: gold;
+    float: right;
+    width: 327px;
+    height: 139px;
+}
+
+
+
+
+
+
+
+
+#main-content-1 .item-1:nth-child(3) .img {
+    float: left;
+}
+
+#main-content-1 .item-1:nth-child(3) .img img{
+    width: 140px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 34px;
+}
+
+#main-content-1 .item-1:nth-child(3) .mod-header{
+    padding-left: 13px;
+    display: block;
+    width: 157px;
+    float: right;
+    margin-top: -85px;
+    background-color: rgb(207, 224, 204);
+    background-color: transparent;
+}
+
+
+#main-content-1 .item-1:nth-child(3) .mod-header h2{
+    display: block;
+    font-size: 17.5px;
+    float: left;
+    padding-left: 1px;
+}
+
+
+
+
+
+
+
+
+#main-content-1 .item-1:nth-child(4){
+    background-color: rgb(32, 240, 13);
+    float: right;
+    width: 327px;
+    height: 139px;
+}
+
+
+
+
+
+
+
+
+
+#main-content-1 .item-1:nth-child(4) .img {
+    float: left;
+}
+
+#main-content-1 .item-1:nth-child(4) .img img{
+    width: 140px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 34px;
+}
+
+#main-content-1 .item-1:nth-child(4) .mod-header{
+    padding-left: 13px;
+    display: block;
+    width: 157px;
+    float: right;
+    margin-top: -85px;
+    background-color: rgb(207, 224, 204);
+    background-color: transparent;
+}
+
+
+#main-content-1 .item-1:nth-child(4) .mod-header h2{
+    display: block;
+    font-size: 17.5px;
+    float: left;
+    padding-left: 1px;
+}
+
+
+
+
